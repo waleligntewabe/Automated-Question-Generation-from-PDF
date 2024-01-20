@@ -13,8 +13,8 @@ Various Python libraries including langchain, openai, pypdf, and faiss-cpu
 # Installation
 Run the following command to install the required packages:
 
-```python
-!pip install langchain openai pypdf faiss-cpu
+   ```python
+   !pip install langchain openai pypdf faiss-cpu
 
 # Configuration
 OpenAI API Key: You need to obtain an API key from OpenAI. Set this key in your environment variables or within your application to authenticate your requests.
