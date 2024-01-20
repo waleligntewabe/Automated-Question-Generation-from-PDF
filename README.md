@@ -13,15 +13,14 @@ This can be particularly useful in educational settings, content creation, and v
 ## Installation
 Run the following command to install the required packages:
 
-```bash
+```python
 !pip install langchain openai pypdf faiss-cpu
 
-## Configuration
+**Configuration**
 OpenAI API Key: You need to obtain an API key from OpenAI. Set this key in your environment variables or within your application to authenticate your requests.
 Python Environment: Ensure Python 3.6 or later is installed on your machine. It's recommended to use a virtual environment.
-
-# Usage
-1. Import Libraries: Import necessary libraries in your Python script.
+**Usage**
+Import Libraries: Import necessary libraries in your Python script.
 
    ```python
     import openai
