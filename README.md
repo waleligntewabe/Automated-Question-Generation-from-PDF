@@ -13,6 +13,7 @@ Various Python libraries including langchain, openai, pypdf, and faiss-cpu
 # Installation
 Run the following command to install the required packages:
 
+```python
 !pip install langchain openai pypdf faiss-cpu
 
 # Configuration
@@ -38,13 +39,13 @@ Python Environment: Ensure Python 3.6 or later is installed on your machine. It'
 
 7. Advanced Features: Implement advanced features like indexing, searching, or similarity checks using faiss-cpu if needed.
 
-  # Examples
+# Examples
 Provide examples of how to use your script to generate questions, including how to input text and interpret the output.
 
 # Limitations and Known Issues
 **API Dependency**: The system relies on the OpenAI API, which may have usage limits or costs associated with it.
 **Quality of Questions**: The quality of generated questions may vary based on the input text and the model's current capabilities.
-Language Support: Depending on the model's training, some languages might be better supported than others.
+**Language Support**: Depending on the model's training, some languages might be better supported than others.
 
 # Contributing
 Guide potential contributors on how they can help with the project. This could include instructions for forking the repository, making changes, and submitting pull requests.
