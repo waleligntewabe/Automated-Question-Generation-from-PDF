@@ -28,13 +28,15 @@ Python Environment: Ensure Python 3.6 or later is installed on your machine. It'
     other imports as necessary
 
 3. API Setup: Configure the OpenAI API with your API key.
+   
+   ```python
    openai.api_key = 'your-api-key'
 
-4. Question Generation: Implement the logic to generate questions from the text. You can use langchain and OpenAI's GPT-3.5 model for this purpose.
+5. Question Generation: Implement the logic to generate questions from the text. You can use langchain and OpenAI's GPT-3.5 model for this purpose.
 
-5. PDF Processing (Optional): If you are processing PDFs, use pypdf to extract text.
+6. PDF Processing (Optional): If you are processing PDFs, use pypdf to extract text.
 
-6. Advanced Features: Implement advanced features like indexing, searching, or similarity checks using faiss-cpu if needed.
+7. Advanced Features: Implement advanced features like indexing, searching, or similarity checks using faiss-cpu if needed.
 
   # Examples
 Provide examples of how to use your script to generate questions, including how to input text and interpret the output.
