@@ -12,33 +12,35 @@ This can be particularly useful in educational settings, content creation, and v
 
 ## Installation
 Run the following command to install the required packages:
+
 '''python
 !pip install langchain openai pypdf faiss-cpu
-'''
-**Configuration**
+
+
+## Configuration
 
 OpenAI API Key: You need to obtain an API key from OpenAI. Set this key in your environment variables or within your application to authenticate your requests.
 Python Environment: Ensure Python 3.6 or later is installed on your machine. It's recommended to use a virtual environment.
-**Usage**
-Import Libraries: Import necessary libraries in your Python script.
+## Usage
+1.Import Libraries: Import necessary libraries in your Python script.
 
-   ```python
-    import openai
-    import langchain
-    other imports as necessary
-   '''
-3. API Setup: Configure the OpenAI API with your API key.
+```python
+ import openai
+ import langchain
+ other imports as necessary
+
+2. API Setup: Configure the OpenAI API with your API key.
    
-   ```python
-   openai.api_key = 'your-api-key'
+```python
+openai.api_key = 'your-api-key'
 
-5. Question Generation: Implement the logic to generate questions from the text. You can use langchain and OpenAI's GPT-3.5 model for this purpose.
+3. Question Generation: Implement the logic to generate questions from the text. You can use langchain and OpenAI's GPT-3.5 model for this purpose.
 
-6. PDF Processing (Optional): If you are processing PDFs, use pypdf to extract text.
+4. PDF Processing (Optional): If you are processing PDFs, use pypdf to extract text.
 
-7. Advanced Features: Implement advanced features like indexing, searching, or similarity checks using faiss-cpu if needed.
+5. Advanced Features: Implement advanced features like indexing, searching, or similarity checks using faiss-cpu if needed.
 
-# Examples
+## Examples
 Provide examples of how to use your script to generate questions, including how to input text and interpret the output.
 
 # Limitations and Known Issues
