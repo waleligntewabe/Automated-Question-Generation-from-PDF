@@ -12,7 +12,7 @@ This can be particularly useful in educational settings, content creation, and v
 
 ## Installation
 Run the following command to install the required packages:
-'''
+'''python
 !pip install langchain openai pypdf faiss-cpu
 '''
 **Configuration**
